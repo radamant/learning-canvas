@@ -1,6 +1,3 @@
-var cross;
-var speed = 200;
-
 const FPS = 60;
 var context
 var myCross;
@@ -32,7 +29,7 @@ var cross = function(context){
     if(x < 0 || x + width  >= context.canvas.width){ xDir *= -1; }
     // if(y < 0 || y + height >= context.canvas.width){ yDir *= -1; }
     x += xDir * speed;
-    y = offset + (sweep * Math.sin(iterations / FPS));//yDir * speed;
+    y = offset + (sweep * Math.sin(iterations / FPS));
     iterations += speed;
     that.draw();
   }
