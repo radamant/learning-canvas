@@ -1,0 +1,32 @@
+body {
+  background-color: #fff;
+  font-family: Helvetica;
+}
+
+body#demo{
+  margin: auto;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 15px 0;
+}
+h1, p { font-family: Georgia;}
+#graphics {
+  margin-top: 40px;
+}
+
+ul#demos{
+  list-style: none outside none;
+  padding: 0;
+}
+
+#demos a{
+  color: #1E83CB;
+  display: block;
+  font-size: 24px;
+  margin-top: 10px;
+  text-decoration: none;
+}
